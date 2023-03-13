@@ -1,5 +1,5 @@
 
-This repo is used to generate a fully compiled tailwind.css file that can be hosted directly from a CDN or s3 with no need to integrate Tailwind into your codebase with npm or use any kind of pre/post compilation step. It works well in cases where one initial moderatly heavy load (733kb) won't have a noticeable impact on end user experience.
+This repo is used to generate a fully compiled tailwind.css file that can be hosted directly from a CDN or s3 with no need to integrate Tailwind into your codebase with npm or use any kind of pre/post compilation step. It works well in cases where one initial moderately heavy load (733kb) won't have a noticeable impact on end user experience.
 
 ## What's Included
 
