@@ -16,19 +16,18 @@
 .flex-shrink-0                 .sm:flex-shrink-0                 .md:flex-shrink-0                 .lg:flex-shrink-0                 .xl:flex-shrink-0                 .2xl:flex-shrink-0                 
 .order-first                   .sm:order-first                   .md:order-first                   .lg:order-first                   .xl:order-first                   .2xl:order-first                   
 .order-last                    .sm:order-last                    .md:order-last                    .lg:order-last                    .xl:order-last                    .2xl:order-last                    
-.order-none                    
-.order-1                       
-.order-2                       
-.order-3                       
-.order-4                       
-.order-5                       
-.order-6                       
-.order-7                       
-.order-8                       
-.order-9                       
-.order-10                      
-.order-11                      
-.order-12                      
+.order-none                    .sm:order-none                    .md:order-none                    .lg:order-none                    .xl:order-none                    .2xl:order-none                    
+.order-1                       .sm:order-1                       .md:order-1                       .lg:order-1                       .xl:order-1                       .2xl:order-1                       
+.order-2                       .sm:order-2                       .md:order-2                       .lg:order-2                       .xl:order-2                       .2xl:order-2                       
+.order-3                       .sm:order-3                       .md:order-3                       .lg:order-3                       .xl:order-3                       .2xl:order-3                       
+.order-4                       .sm:order-4                       .md:order-4                       .lg:order-4                       .xl:order-4                       .2xl:order-4                       
+.order-5                       .sm:order-5                       .md:order-5                       .lg:order-5                       .xl:order-5                       .2xl:order-5                       
+.order-6                       .sm:order-6                       .md:order-6                       .lg:order-6                       .xl:order-6                       .2xl:order-6                       
+.order-7                       .sm:order-7                       .md:order-7                       .lg:order-7                       .xl:order-7                       .2xl:order-7                       
+.order-8                       .sm:order-8                       .md:order-8                       .lg:order-8                       .xl:order-8                       .2xl:order-8                       
+.order-9                       .sm:order-9                       .md:order-9                       .lg:order-9                       .xl:order-9                       .2xl:order-9                       
+.order-10                      .sm:order-10                      .md:order-10                      .lg:order-10                      .xl:order-10                      .2xl:order-10                      
+.order-11                      .sm:order-11                      .md:order-11                      .lg:order-11                      .xl:order-11                      .2xl:order-11                      
 # Grid
 .grid-cols-1                   .sm:grid-cols-1                   .md:grid-cols-1                   .lg:grid-cols-1                   .xl:grid-cols-1                   .2xl:grid-cols-1                   
 .grid-cols-2                   .sm:grid-cols-2                   .md:grid-cols-2                   .lg:grid-cols-2                   .xl:grid-cols-2                   .2xl:grid-cols-2                   
@@ -117,10 +116,10 @@
 .row-end-6                     
 .row-end-7                     
 .row-end-auto                  
-.grid-flow-row                 
-.grid-flow-col                 
-.grid-flow-row-dense           
-.grid-flow-col-dense           
+.grid-flow-row                 .sm:grid-flow-row                 .md:grid-flow-row                 .lg:grid-flow-row                 .xl:grid-flow-row                 .2xl:grid-flow-row                 
+.grid-flow-col                 .sm:grid-flow-col                 .md:grid-flow-col                 .lg:grid-flow-col                 .xl:grid-flow-col                 .2xl:grid-flow-col                 
+.grid-flow-row-dense           .sm:grid-flow-row-dense           .md:grid-flow-row-dense           .lg:grid-flow-row-dense           .xl:grid-flow-row-dense           .2xl:grid-flow-row-dense           
+.grid-flow-col-dense           .sm:grid-flow-col-dense           .md:grid-flow-col-dense           .lg:grid-flow-col-dense           .xl:grid-flow-col-dense           .2xl:grid-flow-col-dense           
 .auto-cols-auto                
 .auto-cols-min                 
 .auto-cols-max                 
@@ -264,23 +263,23 @@
 .self-end                      .sm:self-end                      .md:self-end                      .lg:self-end                      .xl:self-end                      .2xl:self-end                      
 .self-center                   .sm:self-center                   .md:self-center                   .lg:self-center                   .xl:self-center                   .2xl:self-center                   
 .self-stretch                  .sm:self-stretch                  .md:self-stretch                  .lg:self-stretch                  .xl:self-stretch                  .2xl:self-stretch                  
-.place-content-center          
-.place-content-start           
-.place-content-end             
-.place-content-between         
-.place-content-around          
-.place-content-evenly          
-.place-content-stretch         
-.place-items-auto              
-.place-items-start             
-.place-items-end               
-.place-items-center            
-.place-items-stretch           
-.place-self-auto               
-.place-self-start              
-.place-self-end                
-.place-self-center             
-.place-self-stretch            
+.place-content-center          .sm:place-content-center          .md:place-content-center          .lg:place-content-center          
+.place-content-start           .sm:place-content-start           .md:place-content-start           .lg:place-content-start           
+.place-content-end             .sm:place-content-end             .md:place-content-end             .lg:place-content-end             
+.place-content-between         .sm:place-content-between         .md:place-content-between         .lg:place-content-between         
+.place-content-around          .sm:place-content-around          .md:place-content-around          .lg:place-content-around          
+.place-content-evenly          .sm:place-content-evenly          .md:place-content-evenly          .lg:place-content-evenly          
+.place-content-stretch         .sm:place-content-stretch         .md:place-content-stretch         .lg:place-content-stretch         
+.place-items-auto              .sm:place-items-auto              .md:place-items-auto              .lg:place-items-auto              
+.place-items-start             .sm:place-items-start             .md:place-items-start             .lg:place-items-start             
+.place-items-end               .sm:place-items-end               .md:place-items-end               .lg:place-items-end               
+.place-items-center            .sm:place-items-center            .md:place-items-center            .lg:place-items-center            
+.place-items-stretch           .sm:place-items-stretch           .md:place-items-stretch           .lg:place-items-stretch           
+.place-self-auto               .sm:place-self-auto               .md:place-self-auto               .lg:place-self-auto               
+.place-self-start              .sm:place-self-start              .md:place-self-start              .lg:place-self-start              
+.place-self-end                .sm:place-self-end                .md:place-self-end                .lg:place-self-end                
+.place-self-center             .sm:place-self-center             .md:place-self-center             .lg:place-self-center             
+.place-self-stretch            .sm:place-self-stretch            .md:place-self-stretch            .lg:place-self-stretch            
 .# Sizing                      .sm:# Sizing                      .md:# Sizing                      .lg:# Sizing                      .xl:# Sizing                      .2xl:# Sizing                      
 .w-auto                        .sm:w-auto                        .md:w-auto                        .lg:w-auto                        .xl:w-auto                        .2xl:w-auto                        
 .w-1/2                         .sm:w-1/2                         .md:w-1/2                         .lg:w-1/2                         .xl:w-1/2                         .2xl:w-1/2                         
@@ -1863,13 +1862,13 @@
 .divide-double                 .sm:divide-double                 .md:divide-double                 .lg:divide-double                 .xl:divide-double                 .2xl:divide-double                 
 .border-none                   .sm:border-none                   .md:border-none                   .lg:border-none                   .xl:border-none                   .2xl:border-none                   
 .divide-none                   .sm:divide-none                   .md:divide-none                   .lg:divide-none                   .xl:divide-none                   .2xl:divide-none                   
-.border                        .sm:border                        .md:border                        .lg:border                        .xl:border                        .2xl:border                        
-.border-0                      .sm:border-0                      .md:border-0                      .lg:border-0                      .xl:border-0                      .2xl:border-0                      
-.border-2                      .sm:border-2                      .md:border-2                      .lg:border-2                      .xl:border-2                      .2xl:border-2                      
-.border-4                      .sm:border-4                      .md:border-4                      .lg:border-4                      .xl:border-4                      .2xl:border-4                      
-.border-8                      .sm:border-8                      .md:border-8                      .lg:border-8                      .xl:border-8                      .2xl:border-8                      
-.border-t                      .sm:border-t                      .md:border-t                      .lg:border-t                      .xl:border-t                      .2xl:border-t                    
-.border-r                      .sm:border-r                      .md:border-r                      .lg:border-r                      .xl:border-r                      .2xl:border-r                  
+.border                        .sm:border                        .md:border                        .lg:border                        .xl:border                        .2xl:border                        .focus:border
+.border-0                      .sm:border-0                      .md:border-0                      .lg:border-0                      .xl:border-0                      .2xl:border-0                      .focus:border-0
+.border-2                      .sm:border-2                      .md:border-2                      .lg:border-2                      .xl:border-2                      .2xl:border-2                      .focus:border-2
+.border-4                      .sm:border-4                      .md:border-4                      .lg:border-4                      .xl:border-4                      .2xl:border-4                      .focus:border-4
+.border-8                      .sm:border-8                      .md:border-8                      .lg:border-8                      .xl:border-8                      .2xl:border-8                      .focus:border-8
+.border-t                      .sm:border-t                      .md:border-t                      .lg:border-t                      .xl:border-t                      .2xl:border-t                      
+.border-r                      .sm:border-r                      .md:border-r                      .lg:border-r                      .xl:border-r                      .2xl:border-r                      
 .border-b                      .sm:border-b                      .md:border-b                      .lg:border-b                      .xl:border-b                      .2xl:border-b                 
 .border-l                      .sm:border-l                      .md:border-l                      .lg:border-l                      .xl:border-l                      .2xl:border-l                   
 .border-t-0                    .sm:border-t-0                    .md:border-t-0                    .lg:border-t-0                    .xl:border-t-0                    .2xl:border-t-0                    
@@ -1888,16 +1887,16 @@
 .border-l-2                    .sm:border-l-2                    .md:border-l-2                    .lg:border-l-2                    .xl:border-l-2                    .2xl:border-l-2                    
 .border-l-4                    .sm:border-l-4                    .md:border-l-4                    .lg:border-l-4                    .xl:border-l-4                    .2xl:border-l-4                    
 .border-l-8                    .sm:border-l-8                    .md:border-l-8                    .lg:border-l-8                    .xl:border-l-8                    .2xl:border-l-8                    
-.border-gray-50                
-.border-gray-100               
-.border-gray-200               
-.border-gray-300               
-.border-gray-400               
-.border-gray-500               
-.border-gray-600               
-.border-gray-700               
-.border-gray-800               
-.border-gray-900               
+.border-gray-50                .hover:border-gray-50                
+.border-gray-100               .hover:border-gray-100               
+.border-gray-200               .hover:border-gray-200               
+.border-gray-300               .hover:border-gray-300               
+.border-gray-400               .hover:border-gray-400               
+.border-gray-500               .hover:border-gray-500               
+.border-gray-600               .hover:border-gray-600               
+.border-gray-700               .hover:border-gray-700               
+.border-gray-800               .hover:border-gray-800               
+.border-gray-900               .hover:border-gray-900               
 .border-red-50                 
 .border-red-100                
 .border-red-200                
@@ -2338,8 +2337,8 @@
 .bg-clip-text                  .sm:bg-clip-text                  .md:bg-clip-text                  .lg:bg-clip-text                  .xl:bg-clip-text                  .2xl:bg-clip-text                  
 .bg-transparent                .sm:bg-transparent                .md:bg-transparent                .lg:bg-transparent                .xl:bg-transparent                .2xl:bg-transparent                
 .bg-current                    .sm:bg-current                    .md:bg-current                    .lg:bg-current                    .xl:bg-current                    .2xl:bg-current                    
-.bg-white                      .sm:bg-white                      .md:bg-white                      .lg:bg-white                      .xl:bg-white                      .2xl:bg-white                      
-.bg-black                      .sm:bg-black                      .md:bg-black                      .lg:bg-black                      .xl:bg-black                      .2xl:bg-black                      
+.bg-white                      .sm:bg-white                      .md:bg-white                      .lg:bg-white                      .xl:bg-white                      .2xl:bg-white                      .hover:bg-white
+.bg-black                      .sm:bg-black                      .md:bg-black                      .lg:bg-black                      .xl:bg-black                      .2xl:bg-black                      .hover:bg-black
 .bg-center                     .sm:bg-center                     .md:bg-center                     .lg:bg-center                     .xl:bg-center                     .2xl:bg-center                     
 .bg-top                        .sm:bg-top                        .md:bg-top                        .lg:bg-top                        .xl:bg-top                        .2xl:bg-top                        
 .bg-right                      .sm:bg-right                      .md:bg-right                      .lg:bg-right                      .xl:bg-right                      .2xl:bg-right                      
@@ -2451,121 +2450,121 @@
 .bg-auto                       .sm:bg-auto                       .md:bg-auto                       .lg:bg-auto                       .xl:bg-auto                       .2xl:bg-auto                       
 .bg-cover                      .sm:bg-cover                      .md:bg-cover                      .lg:bg-cover                      .xl:bg-cover                      .2xl:bg-cover                      
 .bg-contain                    .sm:bg-contain                    .md:bg-contain                    .lg:bg-contain                    .xl:bg-contain                    .2xl:bg-contain                    
-.bg-gray-50                    .hover:bg-gray-50                    
-.bg-gray-100                   .hover:bg-gray-100                   
-.bg-gray-200                   .hover:bg-gray-200                   
-.bg-gray-300                   .hover:bg-gray-300                   
-.bg-gray-400                   .hover:bg-gray-400                   
-.bg-gray-500                   .hover:bg-gray-500                   
-.bg-gray-600                   .hover:bg-gray-600                   
-.bg-gray-700                   .hover:bg-gray-700                   
-.bg-gray-800                   .hover:bg-gray-800                   
-.bg-gray-900                   .hover:bg-gray-900                   
-.bg-red-50                     .hover:bg-red-50                     
-.bg-red-100                    .hover:bg-red-100                    
-.bg-red-200                    .hover:bg-red-200                    
-.bg-red-300                    .hover:bg-red-300                    
-.bg-red-400                    .hover:bg-red-400                    
-.bg-red-500                    .hover:bg-red-500                    
-.bg-red-600                    .hover:bg-red-600                    
-.bg-red-700                    .hover:bg-red-700                    
-.bg-red-800                    .hover:bg-red-800                    
-.bg-red-900                    .hover:bg-red-900                    
-.bg-yellow-50                  .hover:bg-yellow-50                  
-.bg-yellow-100                 .hover:bg-yellow-100                 
-.bg-yellow-200                 .hover:bg-yellow-200                 
-.bg-yellow-300                 .hover:bg-yellow-300                 
-.bg-yellow-400                 .hover:bg-yellow-400                 
-.bg-yellow-500                 .hover:bg-yellow-500                 
-.bg-yellow-600                 .hover:bg-yellow-600                 
-.bg-yellow-700                 .hover:bg-yellow-700                 
-.bg-yellow-800                 .hover:bg-yellow-800                 
-.bg-yellow-900                 .hover:bg-yellow-900                 
-.bg-green-50                   .hover:bg-green-50                   
-.bg-green-100                  .hover:bg-green-100                  
-.bg-green-200                  .hover:bg-green-200                  
-.bg-green-300                  .hover:bg-green-300                  
-.bg-green-400                  .hover:bg-green-400                  
-.bg-green-500                  .hover:bg-green-500                  
-.bg-green-600                  .hover:bg-green-600                  
-.bg-green-700                  .hover:bg-green-700                  
-.bg-green-800                  .hover:bg-green-800                  
-.bg-green-900                  .hover:bg-green-900                  
-.bg-sky-50                     .hover:bg-sky-50                    
-.bg-sky-100                    .hover:bg-sky-100                   
-.bg-sky-200                    .hover:bg-sky-200                   
-.bg-sky-300                    .hover:bg-sky-300                   
-.bg-sky-400                    .hover:bg-sky-400                   
-.bg-sky-500                    .hover:bg-sky-500                   
-.bg-sky-600                    .hover:bg-sky-600                   
-.bg-sky-700                    .hover:bg-sky-700                   
-.bg-sky-800                    .hover:bg-sky-800                   
-.bg-sky-900                    .hover:bg-sky-900                   
-.bg-blue-50                    .hover:bg-blue-50                    
-.bg-blue-100                   .hover:bg-blue-100                   
-.bg-blue-200                   .hover:bg-blue-200                   
-.bg-blue-300                   .hover:bg-blue-300                   
-.bg-blue-400                   .hover:bg-blue-400                   
-.bg-blue-500                   .hover:bg-blue-500                   
-.bg-blue-600                   .hover:bg-blue-600                   
-.bg-blue-700                   .hover:bg-blue-700                   
-.bg-blue-800                   .hover:bg-blue-800                   
-.bg-blue-900                   .hover:bg-blue-900                   
-.bg-indigo-50                  .hover:bg-indigo-50                  
-.bg-indigo-100                 .hover:bg-indigo-100                 
-.bg-indigo-200                 .hover:bg-indigo-200                 
-.bg-indigo-300                 .hover:bg-indigo-300                 
-.bg-indigo-400                 .hover:bg-indigo-400                 
-.bg-indigo-500                 .hover:bg-indigo-500                 
-.bg-indigo-600                 .hover:bg-indigo-600                 
-.bg-indigo-700                 .hover:bg-indigo-700                 
-.bg-indigo-800                 .hover:bg-indigo-800                 
-.bg-indigo-900                 .hover:bg-indigo-900                 
-.bg-purple-50                  .hover:bg-purple-50                  
-.bg-purple-100                 .hover:bg-purple-100                 
-.bg-purple-200                 .hover:bg-purple-200                 
-.bg-purple-300                 .hover:bg-purple-300                 
-.bg-purple-400                 .hover:bg-purple-400                 
-.bg-purple-500                 .hover:bg-purple-500                 
-.bg-purple-600                 .hover:bg-purple-600                 
-.bg-purple-700                 .hover:bg-purple-700                 
-.bg-purple-800                 .hover:bg-purple-800                 
-.bg-purple-900                 .hover:bg-purple-900                 
-.bg-pink-50                    .hover:bg-pink-50                    
-.bg-pink-100                   .hover:bg-pink-100                   
-.bg-pink-200                   .hover:bg-pink-200                   
-.bg-pink-300                   .hover:bg-pink-300                   
-.bg-pink-400                   .hover:bg-pink-400                   
-.bg-pink-500                   .hover:bg-pink-500                   
-.bg-pink-600                   .hover:bg-pink-600                   
-.bg-pink-700                   .hover:bg-pink-700                   
-.bg-pink-800                   .hover:bg-pink-800                   
-.bg-pink-900                   .hover:bg-pink-900                   
-.bg-rose-50                    .hover:bg-rose-50                    
-.bg-rose-100                   .hover:bg-rose-100                   
-.bg-rose-200                   .hover:bg-rose-200                   
-.bg-rose-300                   .hover:bg-rose-300                   
-.bg-rose-400                   .hover:bg-rose-400                   
-.bg-rose-500                   .hover:bg-rose-500                   
-.bg-rose-600                   .hover:bg-rose-600                   
-.bg-rose-700                   .hover:bg-rose-700                   
-.bg-rose-800                   .hover:bg-rose-800                   
-.bg-rose-900                   .hover:bg-rose-900                   
-.bg-opacity-0                  .hover:bg-opacity-0                  
-.bg-opacity-5                  .hover:bg-opacity-5                  
-.bg-opacity-10                 .hover:bg-opacity-10                 
-.bg-opacity-20                 .hover:bg-opacity-20                 
-.bg-opacity-25                 .hover:bg-opacity-25                 
-.bg-opacity-30                 .hover:bg-opacity-30                 
-.bg-opacity-40                 .hover:bg-opacity-40                 
-.bg-opacity-50                 .hover:bg-opacity-50                 
-.bg-opacity-60                 .hover:bg-opacity-60                 
-.bg-opacity-70                 .hover:bg-opacity-70                 
-.bg-opacity-75                 .hover:bg-opacity-75                 
-.bg-opacity-80                 .hover:bg-opacity-80                 
-.bg-opacity-90                 .hover:bg-opacity-90                 
-.bg-opacity-95                 .hover:bg-opacity-95                 
-.bg-opacity-100                .hover:bg-opacity-100                
+.bg-gray-50                    .hover:bg-gray-50                 .disabled:bg-gray-50                 
+.bg-gray-100                   .hover:bg-gray-100                .disabled:bg-gray-100                
+.bg-gray-200                   .hover:bg-gray-200                .disabled:bg-gray-200                
+.bg-gray-300                   .hover:bg-gray-300                .disabled:bg-gray-300                
+.bg-gray-400                   .hover:bg-gray-400                .disabled:bg-gray-400                
+.bg-gray-500                   .hover:bg-gray-500                .disabled:bg-gray-500                
+.bg-gray-600                   .hover:bg-gray-600                .disabled:bg-gray-600                
+.bg-gray-700                   .hover:bg-gray-700                .disabled:bg-gray-700                
+.bg-gray-800                   .hover:bg-gray-800                .disabled:bg-gray-800                
+.bg-gray-900                   .hover:bg-gray-900                .disabled:bg-gray-900                
+.bg-red-50                     .hover:bg-red-50                  .disabled:bg-red-50                  
+.bg-red-100                    .hover:bg-red-100                 .disabled:bg-red-100                 
+.bg-red-200                    .hover:bg-red-200                 .disabled:bg-red-200                 
+.bg-red-300                    .hover:bg-red-300                 .disabled:bg-red-300                 
+.bg-red-400                    .hover:bg-red-400                 .disabled:bg-red-400                 
+.bg-red-500                    .hover:bg-red-500                 .disabled:bg-red-500                 
+.bg-red-600                    .hover:bg-red-600                 .disabled:bg-red-600                 
+.bg-red-700                    .hover:bg-red-700                 .disabled:bg-red-700                 
+.bg-red-800                    .hover:bg-red-800                 .disabled:bg-red-800                 
+.bg-red-900                    .hover:bg-red-900                 .disabled:bg-red-900                 
+.bg-yellow-50                  .hover:bg-yellow-50               .disabled:bg-yellow-50               
+.bg-yellow-100                 .hover:bg-yellow-100              .disabled:bg-yellow-100              
+.bg-yellow-200                 .hover:bg-yellow-200              .disabled:bg-yellow-200              
+.bg-yellow-300                 .hover:bg-yellow-300              .disabled:bg-yellow-300              
+.bg-yellow-400                 .hover:bg-yellow-400              .disabled:bg-yellow-400              
+.bg-yellow-500                 .hover:bg-yellow-500              .disabled:bg-yellow-500              
+.bg-yellow-600                 .hover:bg-yellow-600              .disabled:bg-yellow-600              
+.bg-yellow-700                 .hover:bg-yellow-700              .disabled:bg-yellow-700              
+.bg-yellow-800                 .hover:bg-yellow-800              .disabled:bg-yellow-800              
+.bg-yellow-900                 .hover:bg-yellow-900              .disabled:bg-yellow-900              
+.bg-green-50                   .hover:bg-green-50                .disabled:bg-green-50                
+.bg-green-100                  .hover:bg-green-100               .disabled:bg-green-100               
+.bg-green-200                  .hover:bg-green-200               .disabled:bg-green-200               
+.bg-green-300                  .hover:bg-green-300               .disabled:bg-green-300               
+.bg-green-400                  .hover:bg-green-400               .disabled:bg-green-400               
+.bg-green-500                  .hover:bg-green-500               .disabled:bg-green-500               
+.bg-green-600                  .hover:bg-green-600               .disabled:bg-green-600               
+.bg-green-700                  .hover:bg-green-700               .disabled:bg-green-700               
+.bg-green-800                  .hover:bg-green-800               .disabled:bg-green-800               
+.bg-green-900                  .hover:bg-green-900               .disabled:bg-green-900               
+.bg-sky-50                     .hover:bg-sky-50                  .disabled:bg-sky-50                  
+.bg-sky-100                    .hover:bg-sky-100                 .disabled:bg-sky-100                 
+.bg-sky-200                    .hover:bg-sky-200                 .disabled:bg-sky-200                 
+.bg-sky-300                    .hover:bg-sky-300                 .disabled:bg-sky-300                 
+.bg-sky-400                    .hover:bg-sky-400                 .disabled:bg-sky-400                 
+.bg-sky-500                    .hover:bg-sky-500                 .disabled:bg-sky-500                 
+.bg-sky-600                    .hover:bg-sky-600                 .disabled:bg-sky-600                 
+.bg-sky-700                    .hover:bg-sky-700                 .disabled:bg-sky-700                 
+.bg-sky-800                    .hover:bg-sky-800                 .disabled:bg-sky-800                 
+.bg-sky-900                    .hover:bg-sky-900                 .disabled:bg-sky-900                 
+.bg-blue-50                    .hover:bg-blue-50                 .disabled:bg-blue-50                 
+.bg-blue-100                   .hover:bg-blue-100                .disabled:bg-blue-100                
+.bg-blue-200                   .hover:bg-blue-200                .disabled:bg-blue-200                
+.bg-blue-300                   .hover:bg-blue-300                .disabled:bg-blue-300                
+.bg-blue-400                   .hover:bg-blue-400                .disabled:bg-blue-400                
+.bg-blue-500                   .hover:bg-blue-500                .disabled:bg-blue-500                
+.bg-blue-600                   .hover:bg-blue-600                .disabled:bg-blue-600                
+.bg-blue-700                   .hover:bg-blue-700                .disabled:bg-blue-700                
+.bg-blue-800                   .hover:bg-blue-800                .disabled:bg-blue-800                
+.bg-blue-900                   .hover:bg-blue-900                .disabled:bg-blue-900                
+.bg-indigo-50                  .hover:bg-indigo-50               .disabled:bg-indigo-50               
+.bg-indigo-100                 .hover:bg-indigo-100              .disabled:bg-indigo-100              
+.bg-indigo-200                 .hover:bg-indigo-200              .disabled:bg-indigo-200              
+.bg-indigo-300                 .hover:bg-indigo-300              .disabled:bg-indigo-300              
+.bg-indigo-400                 .hover:bg-indigo-400              .disabled:bg-indigo-400              
+.bg-indigo-500                 .hover:bg-indigo-500              .disabled:bg-indigo-500              
+.bg-indigo-600                 .hover:bg-indigo-600              .disabled:bg-indigo-600              
+.bg-indigo-700                 .hover:bg-indigo-700              .disabled:bg-indigo-700              
+.bg-indigo-800                 .hover:bg-indigo-800              .disabled:bg-indigo-800              
+.bg-indigo-900                 .hover:bg-indigo-900              .disabled:bg-indigo-900              
+.bg-purple-50                  .hover:bg-purple-50               .disabled:bg-purple-50               
+.bg-purple-100                 .hover:bg-purple-100              .disabled:bg-purple-100              
+.bg-purple-200                 .hover:bg-purple-200              .disabled:bg-purple-200              
+.bg-purple-300                 .hover:bg-purple-300              .disabled:bg-purple-300              
+.bg-purple-400                 .hover:bg-purple-400              .disabled:bg-purple-400              
+.bg-purple-500                 .hover:bg-purple-500              .disabled:bg-purple-500              
+.bg-purple-600                 .hover:bg-purple-600              .disabled:bg-purple-600              
+.bg-purple-700                 .hover:bg-purple-700              .disabled:bg-purple-700              
+.bg-purple-800                 .hover:bg-purple-800              .disabled:bg-purple-800              
+.bg-purple-900                 .hover:bg-purple-900              .disabled:bg-purple-900              
+.bg-pink-50                    .hover:bg-pink-50                 .disabled:bg-pink-50                 
+.bg-pink-100                   .hover:bg-pink-100                .disabled:bg-pink-100                
+.bg-pink-200                   .hover:bg-pink-200                .disabled:bg-pink-200                
+.bg-pink-300                   .hover:bg-pink-300                .disabled:bg-pink-300                
+.bg-pink-400                   .hover:bg-pink-400                .disabled:bg-pink-400                
+.bg-pink-500                   .hover:bg-pink-500                .disabled:bg-pink-500                
+.bg-pink-600                   .hover:bg-pink-600                .disabled:bg-pink-600                
+.bg-pink-700                   .hover:bg-pink-700                .disabled:bg-pink-700                
+.bg-pink-800                   .hover:bg-pink-800                .disabled:bg-pink-800                
+.bg-pink-900                   .hover:bg-pink-900                .disabled:bg-pink-900                
+.bg-rose-50                    .hover:bg-rose-50                 .disabled:bg-rose-50                 
+.bg-rose-100                   .hover:bg-rose-100                .disabled:bg-rose-100                
+.bg-rose-200                   .hover:bg-rose-200                .disabled:bg-rose-200                
+.bg-rose-300                   .hover:bg-rose-300                .disabled:bg-rose-300                
+.bg-rose-400                   .hover:bg-rose-400                .disabled:bg-rose-400                
+.bg-rose-500                   .hover:bg-rose-500                .disabled:bg-rose-500                
+.bg-rose-600                   .hover:bg-rose-600                .disabled:bg-rose-600                
+.bg-rose-700                   .hover:bg-rose-700                .disabled:bg-rose-700                
+.bg-rose-800                   .hover:bg-rose-800                .disabled:bg-rose-800                
+.bg-rose-900                   .hover:bg-rose-900                .disabled:bg-rose-900                
+.bg-opacity-0                  .hover:bg-opacity-0               .disabled:bg-opacity-0               
+.bg-opacity-5                  .hover:bg-opacity-5               .disabled:bg-opacity-5               
+.bg-opacity-10                 .hover:bg-opacity-10              .disabled:bg-opacity-10              
+.bg-opacity-20                 .hover:bg-opacity-20              .disabled:bg-opacity-20              
+.bg-opacity-25                 .hover:bg-opacity-25              .disabled:bg-opacity-25              
+.bg-opacity-30                 .hover:bg-opacity-30              .disabled:bg-opacity-30              
+.bg-opacity-40                 .hover:bg-opacity-40              .disabled:bg-opacity-40              
+.bg-opacity-50                 .hover:bg-opacity-50              .disabled:bg-opacity-50              
+.bg-opacity-60                 .hover:bg-opacity-60              .disabled:bg-opacity-60              
+.bg-opacity-70                 .hover:bg-opacity-70              .disabled:bg-opacity-70              
+.bg-opacity-75                 .hover:bg-opacity-75              .disabled:bg-opacity-75              
+.bg-opacity-80                 .hover:bg-opacity-80              .disabled:bg-opacity-80              
+.bg-opacity-90                 .hover:bg-opacity-90              .disabled:bg-opacity-90              
+.bg-opacity-95                 .hover:bg-opacity-95              .disabled:bg-opacity-95              
+.bg-opacity-100                .hover:bg-opacity-100             .disabled:bg-opacity-100             
 # Transition
 .transition-none               .sm:transition-none               .md:transition-none               .lg:transition-none               .xl:transition-none               .2xl:transition-none               
 .transition-all                .sm:transition-all                .md:transition-all                .lg:transition-all                .xl:transition-all                .2xl:transition-all                
@@ -2660,29 +2659,29 @@
 .-rotate-90                    
 .-rotate-180                   
 # Effect
-.opacity-0                     .sm:opacity-0                     .md:opacity-0                     .lg:opacity-0                     .xl:opacity-0                     .2xl:opacity-0                     
-.opacity-5                     .sm:opacity-5                     .md:opacity-5                     .lg:opacity-5                     .xl:opacity-5                     .2xl:opacity-5                     
-.opacity-10                    .sm:opacity-10                    .md:opacity-10                    .lg:opacity-10                    .xl:opacity-10                    .2xl:opacity-10                    
-.opacity-20                    .sm:opacity-20                    .md:opacity-20                    .lg:opacity-20                    .xl:opacity-20                    .2xl:opacity-20                    
-.opacity-25                    .sm:opacity-25                    .md:opacity-25                    .lg:opacity-25                    .xl:opacity-25                    .2xl:opacity-25                    
-.opacity-30                    .sm:opacity-30                    .md:opacity-30                    .lg:opacity-30                    .xl:opacity-30                    .2xl:opacity-30                    
-.opacity-40                    .sm:opacity-40                    .md:opacity-40                    .lg:opacity-40                    .xl:opacity-40                    .2xl:opacity-40                    
-.opacity-50                    .sm:opacity-50                    .md:opacity-50                    .lg:opacity-50                    .xl:opacity-50                    .2xl:opacity-50                    
-.opacity-60                    .sm:opacity-60                    .md:opacity-60                    .lg:opacity-60                    .xl:opacity-60                    .2xl:opacity-60                    
-.opacity-70                    .sm:opacity-70                    .md:opacity-70                    .lg:opacity-70                    .xl:opacity-70                    .2xl:opacity-70                    
-.opacity-75                    .sm:opacity-75                    .md:opacity-75                    .lg:opacity-75                    .xl:opacity-75                    .2xl:opacity-75                    
-.opacity-80                    .sm:opacity-80                    .md:opacity-80                    .lg:opacity-80                    .xl:opacity-80                    .2xl:opacity-80                    
-.opacity-90                    .sm:opacity-90                    .md:opacity-90                    .lg:opacity-90                    .xl:opacity-90                    .2xl:opacity-90                    
-.opacity-95                    .sm:opacity-95                    .md:opacity-95                    .lg:opacity-95                    .xl:opacity-95                    .2xl:opacity-95                    
-.opacity-100                   .sm:opacity-100                   .md:opacity-100                   .lg:opacity-100                   .xl:opacity-100                   .2xl:opacity-100                   
-.shadow                        .sm:shadow                        .md:shadow                        .lg:shadow                        .xl:shadow                        .2xl:shadow                        
-.shadow-sm                     .sm:shadow-sm                     .md:shadow-sm                     .lg:shadow-sm                     .xl:shadow-sm                     .2xl:shadow-sm                     
-.shadow-md                     .sm:shadow-md                     .md:shadow-md                     .lg:shadow-md                     .xl:shadow-md                     .2xl:shadow-md                     
-.shadow-lg                     .sm:shadow-lg                     .md:shadow-lg                     .lg:shadow-lg                     .xl:shadow-lg                     .2xl:shadow-lg                     
-.shadow-xl                     .sm:shadow-xl                     .md:shadow-xl                     .lg:shadow-xl                     .xl:shadow-xl                     .2xl:shadow-xl                     
-.shadow-2xl                    .sm:shadow-2xl                    .md:shadow-2xl                    .lg:shadow-2xl                    .xl:shadow-2xl                    .2xl:shadow-2xl                    
-.shadow-inner                  .sm:shadow-inner                  .md:shadow-inner                  .lg:shadow-inner                  .xl:shadow-inner                  .2xl:shadow-inner                  
-.shadow-none                   .sm:shadow-none                   .md:shadow-none                   .lg:shadow-none                   .xl:shadow-none                   .2xl:shadow-none                   
+.opacity-0                     .sm:opacity-0                     .md:opacity-0                     .lg:opacity-0                     .xl:opacity-0                     .2xl:opacity-0                     .hover:opacity-0                     
+.opacity-5                     .sm:opacity-5                     .md:opacity-5                     .lg:opacity-5                     .xl:opacity-5                     .2xl:opacity-5                     .hover:opacity-5                     
+.opacity-10                    .sm:opacity-10                    .md:opacity-10                    .lg:opacity-10                    .xl:opacity-10                    .2xl:opacity-10                    .hover:opacity-10                    
+.opacity-20                    .sm:opacity-20                    .md:opacity-20                    .lg:opacity-20                    .xl:opacity-20                    .2xl:opacity-20                    .hover:opacity-20                    
+.opacity-25                    .sm:opacity-25                    .md:opacity-25                    .lg:opacity-25                    .xl:opacity-25                    .2xl:opacity-25                    .hover:opacity-25                    
+.opacity-30                    .sm:opacity-30                    .md:opacity-30                    .lg:opacity-30                    .xl:opacity-30                    .2xl:opacity-30                    .hover:opacity-30                    
+.opacity-40                    .sm:opacity-40                    .md:opacity-40                    .lg:opacity-40                    .xl:opacity-40                    .2xl:opacity-40                    .hover:opacity-40                    
+.opacity-50                    .sm:opacity-50                    .md:opacity-50                    .lg:opacity-50                    .xl:opacity-50                    .2xl:opacity-50                    .hover:opacity-50                    
+.opacity-60                    .sm:opacity-60                    .md:opacity-60                    .lg:opacity-60                    .xl:opacity-60                    .2xl:opacity-60                    .hover:opacity-60                    
+.opacity-70                    .sm:opacity-70                    .md:opacity-70                    .lg:opacity-70                    .xl:opacity-70                    .2xl:opacity-70                    .hover:opacity-70                    
+.opacity-75                    .sm:opacity-75                    .md:opacity-75                    .lg:opacity-75                    .xl:opacity-75                    .2xl:opacity-75                    .hover:opacity-75                    
+.opacity-80                    .sm:opacity-80                    .md:opacity-80                    .lg:opacity-80                    .xl:opacity-80                    .2xl:opacity-80                    .hover:opacity-80                    
+.opacity-90                    .sm:opacity-90                    .md:opacity-90                    .lg:opacity-90                    .xl:opacity-90                    .2xl:opacity-90                    .hover:opacity-90                    
+.opacity-95                    .sm:opacity-95                    .md:opacity-95                    .lg:opacity-95                    .xl:opacity-95                    .2xl:opacity-95                    .hover:opacity-95                    
+.opacity-100                   .sm:opacity-100                   .md:opacity-100                   .lg:opacity-100                   .xl:opacity-100                   .2xl:opacity-100                   .hover:opacity-100                   
+.shadow                        .sm:shadow                        .md:shadow                        .lg:shadow                        .xl:shadow                        .2xl:shadow                        .hover:shadow                        
+.shadow-sm                     .sm:shadow-sm                     .md:shadow-sm                     .lg:shadow-sm                     .xl:shadow-sm                     .2xl:shadow-sm                     .hover:shadow-sm                     
+.shadow-md                     .sm:shadow-md                     .md:shadow-md                     .lg:shadow-md                     .xl:shadow-md                     .2xl:shadow-md                     .hover:shadow-md                     
+.shadow-lg                     .sm:shadow-lg                     .md:shadow-lg                     .lg:shadow-lg                     .xl:shadow-lg                     .2xl:shadow-lg                     .hover:shadow-lg                     
+.shadow-xl                     .sm:shadow-xl                     .md:shadow-xl                     .lg:shadow-xl                     .xl:shadow-xl                     .2xl:shadow-xl                     .hover:shadow-xl                     
+.shadow-2xl                    .sm:shadow-2xl                    .md:shadow-2xl                    .lg:shadow-2xl                    .xl:shadow-2xl                    .2xl:shadow-2xl                    .hover:shadow-2xl                    
+.shadow-inner                  .sm:shadow-inner                  .md:shadow-inner                  .lg:shadow-inner                  .xl:shadow-inner                  .2xl:shadow-inner                  .hover:shadow-inner                  
+.shadow-none                   .sm:shadow-none                   .md:shadow-none                   .lg:shadow-none                   .xl:shadow-none                   .2xl:shadow-none                   .hover:shadow-none                   
 # Table
 .border-collapse               .sm:border-collapse               .md:border-collapse               .lg:border-collapse               .xl:border-collapse               .2xl:border-collapse               
 .border-separate               .sm:border-separate               .md:border-separate               .lg:border-separate               .xl:border-separate               .2xl:border-separate               
