@@ -1,0 +1,103 @@
+form:not(.omit-default-form-styling) label:not(.omit-default-form-element-styling) {
+  font-weight:  bold;
+  cursor:       pointer;
+  display:      block ;
+  font-size:    1.25rem;
+}
+
+form:not(.omit-default-form-styling) [type='text'],
+form:not(.omit-default-form-styling) [type='email'],
+form:not(.omit-default-form-styling) [type='url'],
+form:not(.omit-default-form-styling) [type='password'],
+form:not(.omit-default-form-styling) [type='number'],
+form:not(.omit-default-form-styling) [type='date'],
+form:not(.omit-default-form-styling) [type='datetime-local'],
+form:not(.omit-default-form-styling) [type='month'],
+form:not(.omit-default-form-styling) [type='search'],
+form:not(.omit-default-form-styling) [type='tel'],
+form:not(.omit-default-form-styling) [type='time'],
+form:not(.omit-default-form-styling) [type='week'],
+form:not(.omit-default-form-styling) [multiple],
+form:not(.omit-default-form-styling) textarea,
+form:not(.omit-default-form-styling) select {
+  border-width:   var(--form-input-border-width-small-screens, 0 0 1px 0 );
+  border-radius:  var(--form-input-border-radius-small-screens, 0);
+  padding:        var(--form-input-border-padding-small-screens, 0.5rem 0rem);
+  width:          var(--form-input-width, 100%);
+  transition :    border 500ms ease-out;
+}
+
+form:not(.omit-default-form-styling) [type='text']:focus,
+form:not(.omit-default-form-styling) [type='email']:focus,
+form:not(.omit-default-form-styling) [type='url']:focus,
+form:not(.omit-default-form-styling) [type='password']:focus,
+form:not(.omit-default-form-styling) [type='number']:focus,
+form:not(.omit-default-form-styling) [type='date']:focus,
+form:not(.omit-default-form-styling) [type='datetime-local']:focus,
+form:not(.omit-default-form-styling) [type='month']:focus,
+form:not(.omit-default-form-styling) [type='search']:focus,
+form:not(.omit-default-form-styling) [type='tel']:focus,
+form:not(.omit-default-form-styling) [type='time']:focus,
+form:not(.omit-default-form-styling) [type='week']:focus,
+form:not(.omit-default-form-styling) [multiple]:focus,
+form:not(.omit-default-form-styling) textarea:focus,
+form:not(.omit-default-form-styling) select:focus {
+  outline: none;
+  border-color:   var(--form-input-border-color-focus, #191919);
+}
+
+form:not(.omit-default-form-styling) [type='submit'] {
+  background-color:   rgba(var(--primary-bg-color,1,90,226),.9); 
+  border-radius:      var(--form-input-border-radius, 0.25rem);
+  text-transform:     uppercase;
+	letter-spacing:     0.04em; 
+  border:             0;
+  box-sizing:         border-box;
+  color:            #fff;
+  cursor:             pointer;
+  display:            inherit;
+  font-weight:        bold;
+  line-height:        24px;
+  margin:             0;
+  padding:            16px 20px;
+  position:           relative;
+  text-align:         center;
+  user-select:        none;
+  -webkit-user-select:none;
+  touch-action:       manipulation;
+  vertical-align:     baseline;
+  transition:         all .2s cubic-bezier(.22, .61, .36, 1);
+  width:              100%;
+}
+
+form:not(.omit-default-form-styling) [type='submit']:hover {
+  transform:          translateY(-2px);
+  background-color:   rgba(var(--primary-bg-color,1,90,226),1); 
+}
+
+@media (min-width: 640px) {
+  form:not(.omit-default-form-styling) [type='text'],
+  form:not(.omit-default-form-styling) [type='email'],
+  form:not(.omit-default-form-styling) [type='url'],
+  form:not(.omit-default-form-styling) [type='password'],
+  form:not(.omit-default-form-styling) [type='number'],
+  form:not(.omit-default-form-styling) [type='date'],
+  form:not(.omit-default-form-styling) [type='datetime-local'],
+  form:not(.omit-default-form-styling) [type='month'],
+  form:not(.omit-default-form-styling) [type='search'],
+  form:not(.omit-default-form-styling) [type='tel'],
+  form:not(.omit-default-form-styling) [type='time'],
+  form:not(.omit-default-form-styling) [type='week'],
+  form:not(.omit-default-form-styling) [multiple],
+  form:not(.omit-default-form-styling) textarea,
+  form:not(.omit-default-form-styling) select {
+    border-color:   var(--form-input-border-color, #e5e7eb);
+    border-width:   var(--form-input-border-width, 2px);
+    border-radius:  var(--form-input-border-radius, 0.25rem);
+    padding:        var(--form-input-border-padding, 0.75rem);
+  }
+  form:not(.omit-default-form-styling) [type='submit'] {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
