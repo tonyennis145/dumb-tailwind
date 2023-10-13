@@ -23,5 +23,5 @@ This repo is used to generate a fully compiled tailwind.css file that can be hos
 - Pull this repo
 - Install npm & npx, then tailwind.
 - Make whatever changes you need to the `/src/classes.txt`
-- Run `npx tailwindcss -i ./src/input.css -o ./dist/tailwind.css` to compile the file.
+- Run `npx tailwindcss-cli -i ./src/input.css -o ./dist/tailwind.css` to compile the file.
 - Your compiled file is now available in `/dist/tailwind.css`. Upload it to S3 or wherever you'd like to host it, and reference it normally in the head of your page. 
