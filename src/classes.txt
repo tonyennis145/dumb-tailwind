@@ -1403,8 +1403,8 @@
 .right-full                    .sm:right-full                    .md:right-full                    .lg:right-full                    .xl:right-full                    .2xl:right-full                    
 .bottom-full                   .sm:bottom-full                   .md:bottom-full                   .lg:bottom-full                   .xl:bottom-full                   .2xl:bottom-full                   
 .left-full                     .sm:left-full                     .md:left-full                     .lg:left-full                     .xl:left-full                     .2xl:left-full                     
-.top-0                         
-.top-0.5                       
+.top-0                         .sm:top-0                         .md:top-0                         .lg:top-0                         .xl:top-0                         .2xl:top-0
+.top-0.5                       .sm:top-0.5                       .md:top-0.5                       .lg:top-0.5                       .xl:top-0.5                       .2xl:top-0.5
 .top-1                         
 .top-1.5                       
 .top-2                         
@@ -1437,7 +1437,7 @@
 .top-72                        
 .top-80                        
 .top-96                        
-.right-0                       
+.right-0                       .sm:right-0                       .md:right-0                       .lg:right-0                       .xl:right-0                       .2xl:right-0
 .right-0.5                     
 .right-1                       
 .right-1.5                     
@@ -1471,7 +1471,7 @@
 .right-72                      
 .right-80                      
 .right-96                      
-.bottom-0                      
+.bottom-0                      .sm:right-0                       .md:right-0                       .lg:right-0                       .xl:right-0                       .2xl:right-0
 .bottom-0.5                    
 .bottom-1                      
 .bottom-1.5                    
@@ -1505,7 +1505,7 @@
 .bottom-72                     
 .bottom-80                     
 .bottom-96                     
-.left-0                        
+.left-0                        .sm:left-0                        .md:left-0                        .lg:left-0                        .xl:left-0                        .2xl:left-0
 .left-0.5                      
 .left-1                        
 .left-1.5                      
@@ -1695,8 +1695,8 @@
 .placeholder-pink-900          
 .text-current                  
 .text-transparent              
-.text-black                    
-.text-white                    
+.text-black                    .hover:text-black
+.text-white                    .hover:text-white
 .text-gray-50                  
 .text-gray-100                 
 .text-gray-200                 
