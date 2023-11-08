@@ -1,6 +1,6 @@
 ## Use dumb-tailwind in one line
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonyennis145/dumb-tailwind@4b6f7f8/dist/tailwind.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonyennis145/dumb-tailwind@69b2513/dist/tailwind.css" />
 ```
 
 ## About
